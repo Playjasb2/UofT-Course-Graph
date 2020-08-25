@@ -8,9 +8,9 @@
     "text": "Jasmeet Brar"
   },
   "text": {
-    "more": "",
-    "intro": "UofT Courses",
-    "title": "UofT Courses"
+    "more": "This is the graph of UofT's course network for Fall 2020 to Winter 2021. Every node in this graph is a course at UofT, and any edge between two nodes show that one course is a prerequisite or a corequisite of another. The graph isn't entirely accurate as it does not consider certain freeform requirements such as \"Any BIO Courses\". Also another thing to note is that any courses that are common in at least two of the three campuses will represented as just one node in the graph, and any courses at UTSC where their code in the form [A-Z]{3}[1-4][0-9]{2} exist at some other campus -- I assumed that those courses are the same, and will just be represented as one node. Otherwise, a node is created with the UTSC-specific course code. This graph is created by Jasmeet Brar.",
+    "intro": "Course Graph for Fall 2020 - Winter 2021",
+    "title": "UofT Course Graph"
   },
   "legend": {
     "edgeLabel": "Prerequisite/Corequisite",
@@ -28,7 +28,7 @@
   },
   "sigma": {
     "drawingProperties": {
-      "defaultEdgeType": "curve",
+      "defaultEdgeType": "straight",
       "defaultHoverLabelBGColor": "#002147",
       "defaultLabelBGColor": "#ddd",
       "activeFontStyle": "bold",
@@ -46,7 +46,7 @@
       "maxNodeSize": 7
     },
     "mouseProperties": {
-      "maxRatio": 20,
+      "maxRatio": 300,
       "minRatio": 0.75
     }
   }
